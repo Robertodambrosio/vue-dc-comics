@@ -29,7 +29,7 @@ export default {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 80px;
+        height: 10vh;
 
         img {
             width: 60px;
