@@ -4,23 +4,23 @@
             <div class="footer-top">
                 <div class="option">
                     <img src="../assets/buy-comics-digital-comics.png" alt="dc-sp">
-                    <span>Testo</span>
+                    <span>Digital Comics</span>
                 </div>
                 <div class="option">
-                    <img src="../assets/buy-comics-digital-comics.png" alt="dc-sp">
-                    <span>Testo</span>
+                    <img src="../assets/buy-comics-merchandise.png" alt="merch">
+                    <span>Dc merchandise</span>
                 </div>
                 <div class="option">
-                    <img src="../assets/buy-comics-digital-comics.png" alt="dc-sp">
-                    <span>Testo</span>
+                    <img src="../assets/buy-comics-subscriptions.png" alt="sub">
+                    <span>Subscriptions</span>
                 </div>
                 <div class="option">
-                    <img src="../assets/buy-comics-digital-comics.png" alt="dc-sp">
-                    <span>Testo</span>
+                    <img src="../assets/buy-comics-shop-locator.png" alt="shop-locator">
+                    <span>Comic shop locator</span>
                 </div>
                 <div class="option">
-                    <img src="../assets/buy-comics-digital-comics.png" alt="dc-sp">
-                    <span>Testo</span>
+                    <img src="../assets/buy-dc-power-visa.svg" alt="visa-power">
+                    <span>Dc power visa</span>
                 </div>
             </div>
             <div class="footer-main">
@@ -58,6 +58,13 @@
 
                     img {
                         width: 40px;
+                        margin-right: 10px;
+                    }
+
+                    span {
+                        color: white;
+                        text-transform: uppercase;
+                        font-size: 12px;
                     }
                 }
 
