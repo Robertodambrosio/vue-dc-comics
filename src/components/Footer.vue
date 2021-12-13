@@ -1,35 +1,35 @@
 <template>
     <footer>
-        <div class="container">
-            <div class="footer-top">
-                <div class="option">
-                    <img src="../assets/buy-comics-digital-comics.png" alt="dc-sp">
-                    <span>Digital Comics</span>
+        <div class="footer-top-bg">
+            <div class="container">
+                <div class="option-container">
+                    <div class="option">
+                        <img src="../assets/buy-comics-digital-comics.png" alt="dc-sp">
+                        <span>Digital Comics</span>
+                    </div>
+                    <div class="option">
+                        <img src="../assets/buy-comics-merchandise.png" alt="merch">
+                        <span>Dc merchandise</span>
+                    </div>
+                    <div class="option">
+                        <img src="../assets/buy-comics-subscriptions.png" alt="sub">
+                        <span>Subscriptions</span>
+                    </div>
+                    <div class="option">
+                        <img src="../assets/buy-comics-shop-locator.png" alt="shop-locator">
+                        <span>Comic shop locator</span>
+                    </div>
+                    <div class="option">
+                        <img src="../assets/buy-dc-power-visa.svg" alt="visa-power">
+                        <span>Dc</span>
+                    </div>
                 </div>
-                <div class="option">
-                    <img src="../assets/buy-comics-merchandise.png" alt="merch">
-                    <span>Dc merchandise</span>
-                </div>
-                <div class="option">
-                    <img src="../assets/buy-comics-subscriptions.png" alt="sub">
-                    <span>Subscriptions</span>
-                </div>
-                <div class="option">
-                    <img src="../assets/buy-comics-shop-locator.png" alt="shop-locator">
-                    <span>Comic shop locator</span>
-                </div>
-                <div class="option">
-                    <img src="../assets/buy-dc-power-visa.svg" alt="visa-power">
-                    <span>Dc power visa</span>
-                </div>
-            </div>
-            <div class="footer-main">
-
-            </div>
-            <div class="footer-bottom">
-
             </div>
         </div>
+
+
+
+
     </footer>
 </template>
 
@@ -40,16 +40,17 @@
 </script>
 
 <style lang="scss" scoped>
-    footer {
+    .footer-top-bg {
         background-color: #0282f9;
         height: 100px;
 
         .container {
             height: 100%;
 
-            .footer-top {
+            .option-container {
                 height: 100%;
                 display: flex;
+                align-items: center;
                 justify-content: space-around;
 
                 .option {
@@ -67,8 +68,6 @@
                         font-size: 12px;
                     }
                 }
-
-
             }
         }
     }

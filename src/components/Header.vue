@@ -5,14 +5,14 @@
      </div> 
      <nav>
          <ul>
-             <li><a href="">link</a></li>
-             <li><a href="">link</a></li>
-             <li><a href="">link</a></li>
-             <li><a href="">link</a></li>
-             <li><a href="">link</a></li>
-             <li><a href="">link</a></li>
-             <li><a href="">link</a></li>
-             <li><a href="">link</a></li>
+             <li><a href="#">link</a></li>
+             <li><a href="#">link</a></li>
+             <li><a href="#">link</a></li>
+             <li><a href="#">link</a></li>
+             <li><a href="#">link</a></li>
+             <li><a href="#">link</a></li>
+             <li><a href="#">link</a></li>
+             <li><a href="#">link</a></li>
          </ul>            
      </nav>
   </div>
