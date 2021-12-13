@@ -45,7 +45,8 @@ export default {
 
                 a {
                     text-decoration: none;
-                    text-transform: uppercase;                }
+                    text-transform: uppercase;   
+                    font-weight: 600;             }
             }
         }
     }
