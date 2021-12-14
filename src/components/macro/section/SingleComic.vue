@@ -15,5 +15,9 @@
 </script>
 
 <style lang="scss" scoped>
+    .comic {
+        margin-top: 40px;
+        width: 200px;
 
+    }
 </style>

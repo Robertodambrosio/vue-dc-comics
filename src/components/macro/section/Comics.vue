@@ -93,5 +93,10 @@ import SingleComic from '../../macro/section/SingleComic.vue';
 </script>
 
 <style lang="scss" scoped>
-
+.comics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0;
+}
 </style>
