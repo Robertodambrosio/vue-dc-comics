@@ -2,8 +2,11 @@
   <main>
       <Hero/>
       <div class="container">
+          <h2>CURRENT SERIES</h2>
           <Comics/>
-      </div>    
+          <button class="btn-content">Load more</button>
+      </div>
+          
   </main>
 </template>
 
@@ -26,6 +29,27 @@ components: {
 main {
     background-color: #1c1c1c;
     color: white;
+    text-align: center;
+    position: relative;
+
+    h2 {
+        position: absolute;
+        top: 29%;
+        left: 10%;
+        font-size: 20px;
+        background: #0282f9;
+        padding: 10px 30px;
+    }
+
+    .btn-content {
+        padding: 8px 40px;
+        border: none;
+        color: white;
+        background: #0282f9;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
 }
 
 

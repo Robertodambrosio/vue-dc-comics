@@ -19,5 +19,11 @@
         margin-top: 40px;
         width: 200px;
 
+        p {
+            text-align: left;
+            padding-top:  10px;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
     }
 </style>
