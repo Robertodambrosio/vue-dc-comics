@@ -1,6 +1,6 @@
 <template>
         <div class="comics-container">
-            <SingleComic v-for="(element, i) in comics" :key="i"/>
+            <SingleComic v-for="(element, i) in comics" :comic="element" :key="i"/>
         </div>
 </template>
 

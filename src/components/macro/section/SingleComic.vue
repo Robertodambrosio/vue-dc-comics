@@ -1,7 +1,7 @@
 <template>
     <div class="comic">
-        <img :src="element.thumb" :alt="element.type">
-        <p>{{element.series}}</p>
+        <img :src="comic.thumb" :alt="comic.type">
+        <p>{{comic.series}}</p>
     </div>
 </template>
 
