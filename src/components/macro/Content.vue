@@ -1,13 +1,23 @@
 <template>
-  
+  <main>
+      <Hero/>
+
+  </main>
 </template>
 
 <script>
-export default {
+import Hero from '../macro/section/Hero.vue'
 
+export default {
+name: 'Content',
+components: {
+    Hero,
+}
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+
 
 </style>

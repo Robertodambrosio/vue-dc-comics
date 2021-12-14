@@ -1,7 +1,7 @@
 <template>
     <div class="container header">
         <div class="logo">
-            <img src="../assets/img/dc-logo.png" alt="dc-logo">
+            <img src="../../assets/img/dc-logo.png" alt="dc-logo">
         </div>
         <nav>
             <ul>
@@ -100,6 +100,7 @@
                 a {
                     text-decoration: none;
                     text-transform: uppercase;
+                    font-size: 14px;
                     font-weight: 600;
                 }
             }

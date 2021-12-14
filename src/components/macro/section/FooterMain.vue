@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="footer-logo">
-                <img src="../../assets/img/dc-logo-bg.png" alt="logo-footer">
+                <img src="../../../assets/img/dc-logo-bg.png" alt="logo-footer">
             </div>
         </div>
     </div>
@@ -58,8 +58,8 @@
 
 <style lang="scss" scoped>
     .footer-main-bg {
-        background-image: url("../../assets/footer-bg.jpg");
-        height: 60%;
+        background-image: url("../../../assets/img/footer-bg.jpg");
+        height: 70%;
         background-size: cover;
 
         .container {
