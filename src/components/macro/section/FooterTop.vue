@@ -2,25 +2,9 @@
   <div class="footer-top-bg">
     <div class="container">
       <div class="option-container">
-        <div class="option">
-          <img src="../../../assets/img/buy-comics-digital-comics.png" alt="dc-sp" />
-          <span>Digital Comics</span>
-        </div>
-        <div class="option">
-          <img src="../../../assets/img/buy-comics-digital-comics.png" alt="merch" />
-          <span>Dc merchandise</span>
-        </div>
-        <div class="option">
-          <img src="../../../assets/img/buy-comics-digital-comics.png" alt="sub" />
-          <span>Subscriptions</span>
-        </div>
-        <div class="option">
-          <img src="../../../assets/img/buy-comics-digital-comics.png" alt="shop-locator" />
-          <span>Comic shop locator</span>
-        </div>
-        <div class="option">
-          <img src="../../../assets/img/buy-comics-digital-comics.png" alt="visa-power" />
-          <span>Dc</span>
+        <div class="option" v-for="(opt, i) in option" :key="i">
+          <img :src="opt.src" :alt="opt.alt" />
+          <span>{{opt.name}}</span>
         </div>
       </div>
     </div>
@@ -30,6 +14,36 @@
 <script>
   export default {
     name: 'FooterTop',
+    data() {
+      return {
+        option: [{
+          src: '../../../assets/img/buy-comics-digital-comics.png',
+          alt: 'DC',
+          name: 'Digital Comics'
+        },
+        {
+          src: '../../../assets/img/buy-comics-merchandise.png',
+          alt: 'Merch',
+          name: 'DC Merchandise'
+        },
+        {
+          src: '../../../assets/img/buy-comics-subscriptions.png',
+          alt: 'Sub',
+          name: 'Subscriptions'
+        },
+        {
+          src: '../../../assets/img/buy-comics-shop-locator.png',
+          alt: 'CSL',
+          name: 'Comic shop locator'
+        },
+        {
+          src: '../../../assets/img/buy-dc-power-visa.svg',
+          alt: 'Visa',
+          name: 'Dc Power Visa'
+        },
+        ]
+      }
+    }
   };
 </script>
 

@@ -93,15 +93,14 @@
             li {
                 padding: 20px;
 
-                .active {
-                    color:blue
-                }
 
                 a {
                     text-decoration: none;
                     text-transform: uppercase;
                     font-size: 14px;
                     font-weight: 600;
+
+                
                 }
             }
         }
