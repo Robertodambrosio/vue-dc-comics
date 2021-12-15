@@ -21,12 +21,12 @@ import FooterBottom from '../macro/section/FooterBottom.vue';
             FooterBottom
         }
 
-        
+
     }
 </script>
 
 <style lang="scss" scoped>
     footer {
-        height: 70vh;
+        height: 80vh;
     }
 </style>

@@ -31,6 +31,7 @@ main {
     color: white;
     text-align: center;
     position: relative;
+    z-index: 1;
 
     h2 {
         position: absolute;

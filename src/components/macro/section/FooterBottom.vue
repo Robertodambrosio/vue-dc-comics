@@ -5,7 +5,11 @@
                 <button class="btn"><span>Sign-up now!</span></button>
             </div>
             <div class="footer-bottom-dx">
-                a
+                <img src="../../../assets/img/footer-facebook.png">
+                <img src="../../../assets/img/footer-periscope.png">
+                <img src="../../../assets/img/footer-pinterest.png">
+                <img src="../../../assets/img/footer-twitter.png">
+                <img src="../../../assets/img/footer-youtube.png">
             </div>
         </div>
     </div>
@@ -36,6 +40,10 @@
                 color: white;
                 text-transform: uppercase;
                 padding: 10px 20px;
+            }
+
+            .footer-bottom-dx img{
+                margin-left: 10px;
             }
         }
     }
